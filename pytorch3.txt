@@ -1,0 +1,8 @@
+进入pytorch环境:(conda) activate 名字
+学习pytorch 会经常使用python中的 dir() help()函数
+例子:help(layer_norm)
+Help on function layer_norm in module torch.nn.functional:
+layer_norm(input: torch.Tensor, normalized_shape: List[int], weight: Optional[torch.Tensor] = None, bias: Optional[torch.Tensor] = None, eps: float = 1e-05) -> torch.Tensor
+    Apply Layer Normalization for last certain number of dimensions.
+    
+    See :class:`~torch.nn.LayerNorm` for details.对若干执行层归一化操作
